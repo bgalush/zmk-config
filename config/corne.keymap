@@ -38,7 +38,7 @@
             bindings = <
 &kp CAPSLOCK      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp N5       &kp NUMBER_6  &kp N7             &kp NUMBER_8       &kp N9     &kp N0     &kp DELETE
 &kp LEFT_COMMAND  &kp GRAVE     &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans       &trans        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp MINUS  &kp EQUAL  &kp BACKSLASH
-&kp LEFT_CONTROL  &trans        &trans        &trans            &trans             &trans       &trans        &trans             &trans             &trans     &trans     &trans
+&trans            &trans        &trans        &trans            &trans             &trans       &trans        &trans             &trans             &trans     &trans     &trans
                                               &mo 4             &trans             &kp SPACE    &mo 3         &kp RIGHT_ALT      &kp RIGHT_COMMAND
             >;
         };
@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bl BL_TOG    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7         &kp N8  &kp N9     &kp N0  &kp BSPC
-&kp CAPSLOCK  &trans        &trans        &trans        &trans        &trans    &kp LEFT      &kp DOWN       &kp UP  &kp RIGHT  &trans  &trans
-&trans        &trans        &trans        &trans        &trans        &trans    &trans        &trans         &trans  &trans     &trans  &trans
-                                          &trans        &trans        &trans    &trans        &kp RIGHT_WIN  &trans
+&bl BL_TOG        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7         &kp N8  &kp N9     &kp N0  &kp BSPC
+&kp CAPSLOCK      &trans        &trans        &trans        &trans        &trans    &kp LEFT      &kp DOWN       &kp UP  &kp RIGHT  &trans  &trans
+&kp LEFT_CONTROL  &trans        &trans        &trans        &trans        &trans    &trans        &trans         &trans  &trans     &trans  &trans
+                                              &trans        &trans        &trans    &trans        &kp RIGHT_WIN  &trans
             >;
         };
 
